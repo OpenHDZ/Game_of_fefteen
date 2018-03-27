@@ -102,9 +102,6 @@ void clear(void)
  */
 void greet(void)
 {
-    TV.println(30,40,"THIS IS\n");
-    TV.println(40,50,"CS50\n");
-    TV.delay(4000);
     clear();
     TV.println("GAME OF \nFIFTEEN\n");
     TV.println("In my Arduino\nUNO");
